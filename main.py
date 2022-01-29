@@ -10,7 +10,7 @@ from urllib.request import urlopen
 class gui(Tk):
     def __init__(self):
         super().__init__()
-        self.geometry("500x500")
+        self.geometry("800x500")
         self.title("URL Scraping")
         self.config(bg="#02060a")
         self.resizable(False, False)
